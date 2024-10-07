@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  background-color: #eb64cd;
+}
+
+button{
+  padding: 15px 30px;
+  background: rgb(231, 71, 71);
+  color: #faf0f9;
+  border: 3px solid #ada341;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
